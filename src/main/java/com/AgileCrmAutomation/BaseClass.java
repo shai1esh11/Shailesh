@@ -98,7 +98,7 @@ public class BaseClass {
         	//wait.until(Function)
         	wait.until(new Function<WebDriver, WebElement>(){
         		public WebElement apply(WebDriver driver) {
-        			System.out.println(" Waitin for Webelement");
+        			System.out.println(" Waiting for Webelement");
         			return driver.findElement(by);}
         	});
         			
